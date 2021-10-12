@@ -1,0 +1,20 @@
+{
+  "name": "guitar_pro",
+  "version": "1",
+  "description": "back_guitar_store",
+  "main": "server.js",
+  "author": "Interlude",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.8"
+  }
+}
